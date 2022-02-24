@@ -11,13 +11,13 @@ export function NavBar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div className="container">
-                        <div as={Link} to="/" > Home </div>
-                        <div as={Link} to="/capri" > Capri </div>
-                        <div as={Link} to="/short" > Short </div>
-                        <div as={Link} to="/cachetero" > Cachetero </div>
-                        <div as={Link} to="/variedades" > Variedades </div>
-                    </div>
+                    <ul className="navbar-nav me-auto">
+                        <div className="nav-item nav-link px-4" as={Link} to="/" > Home </div>
+                        <div className="nav-item nav-link px-4" as={Link} to="/capri" > Capri </div>
+                        <div className="nav-item nav-link px-4" as={Link} to="/short" > Short </div>
+                        <div className="nav-item nav-link px-4" as={Link} to="/cachetero" > Cachetero </div>
+                        <div className="nav-item nav-link px-4" as={Link} to="/variedades" > Variedades </div>
+                    </ul>
                 </div>
             </div>
             <div className='container-fluid d-flex justify-content-end'>
