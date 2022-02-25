@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Footer } from "./Footer"
 import { ItemList } from "./ItemList"
 
 import listProducts from "../utilities/products.json"
@@ -21,5 +22,10 @@ export function ItemListContainer(){
         })
     },[])
 
-    return<ItemList className="d-flex row p-5 border" products={products}/>
+    return(
+        <div>
+            <ItemList className="d-flex row p-5 border" products={products}/>
+            <Footer />
+        </div>
+    )
 }

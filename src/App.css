@@ -66,3 +66,15 @@ margin: 2px;
 .bg_pink_1{
   background-color: rgb(217, 115, 152);
 }
+
+
+.wa{
+  position: fixed;
+  bottom: 4px;
+  right: 4px;
+  width: 60px;
+}
+
+.scale_1:hover{
+  transform: scale(1.2); 
+}
