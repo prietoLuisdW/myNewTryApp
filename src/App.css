@@ -41,3 +41,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Fuentes Propias */
+.fs_7 {
+  font-size:medium;
+}
+
+.fc_grey{
+  color: gray;
+}
+
+.mx_1{
+margin: 2px;
+}
+
+.bg-indigo-300{
+  background-color: indigo;
+  padding: 4px;
+  border-color: none;
+  color: white
+}
+
+.bg_pink_1{
+  background-color: rgb(217, 115, 152);
+}

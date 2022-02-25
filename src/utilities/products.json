@@ -1,0 +1,219 @@
+[
+    {
+        "id": "1001",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_7080-Copy-300x375.jpg"
+    },
+    {
+        "id": "1015",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "cachetero",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_7023-Copy-300x375.jpg"
+    },
+    {
+        "id": "1008",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "short",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6344-Copy-300x375.jpg"
+    },
+    {
+        "id": "1002",
+        "title": "Pijama Cachetero Jasinta",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno. Para dormir comoda como cachetero",
+        "precio":10,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6188-Copy-300x375.jpg"
+    },
+    {
+        "id": "1018",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "batola",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6456-Copy-300x375.jpg"
+    },
+    {
+        "id": "1016",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "cachetero",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6799-Copy-300x375.jpg"
+    },
+    {
+        "id": "1009",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "short",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6564-Copy-300x375.jpg"
+    },
+    {
+        "id": "1019",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "batola",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6781-Copy-300x375.jpg"
+    },
+    {
+        "id": "1003",
+        "title": "Pijama Cachetero Jimena",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno. Para dormir comoda como cachetero",
+        "precio":10,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_7058-Copy-300x375.jpg"
+    },
+    {
+        "id": "1017",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "cachetero",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_5905-Copy-300x375.jpg"
+    },
+    {
+        "id": "1010",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "short",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6488-Copy-300x375.jpg"
+    },
+    {
+        "id": "1020",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "batola",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2020/10/WhatsApp-Image-2021-11-16-at-9.09.06-AM-300x375.jpeg"
+    },
+    {
+        "id": "1004",
+        "title": "Pijama Cachetero Lorena",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno. Para dormir comoda como cachetero",
+        "precio":10,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6509-Copy-300x375.jpg"
+    },
+    {
+        "id": "1011",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "short",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6105-Copy-300x375.jpg"
+    },
+    {
+        "id": "1005",
+        "title": "Pijama Cachetero Carmel",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno. Para dormir comoda como cachetero",
+        "precio":10,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6854-Copy-300x375.jpg"
+    },
+    {
+        "id": "1021",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "batola",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2020/10/WhatsApp-Image-2021-11-29-at-3.12.06-PM-2-300x375.jpeg"
+    },
+    {
+        "id": "1012",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "short",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2021/12/WhatsApp-Image-2021-11-29-at-3.12.02-PM-1-300x375.jpeg"
+    },
+    {
+        "id": "1006",
+        "title": "Pijama Short Juanita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno. Para dormir comoda como cachetero",
+        "precio":10,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6509-Copy-300x375.jpg"
+    },
+    {
+        "id": "1013",
+        "title": "Pijama Larga Jita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno",
+        "precio":13,
+        "categoryId": "short",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2020/10/WhatsApp-Image-2021-11-18-at-11.50.19-AM-300x375.jpeg"
+    },
+    {
+        "id": "1007",
+        "title": "Pijama Levantadora Satin",
+        "descripcion": "Hermosa levantadora. Tu batola ideal para levantarte",
+        "precio":10,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6471-Copy-300x375.jpg"
+    },
+    {
+        "id": "1022",
+        "title": "Pijama Short Juanita",
+        "descripcion": "Hermosa Pijama en conjunto hecha en Piel de Durazno. Para dormir comoda como cachetero",
+        "precio":10,
+        "categoryId": "batola",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6272-Copy-300x375.jpg"
+    },
+    {
+        "id": "1014",
+        "title": "Pijama Levantadora Satin",
+        "descripcion": "Hermosa levantadora. Tu batola ideal para levantarte",
+        "precio":10,
+        "categoryId": "cachetero",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_6799-Copy-300x375.jpg"
+    },
+    {
+        "id": "1015",
+        "title": "Pijama Levantadora Satin",
+        "descripcion": "Hermosa levantadora. Tu batola ideal para levantarte",
+        "precio":10,
+        "categoryId": "capri",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_7138-Copy-300x375.jpg"
+    },
+    {
+        "id": "1015",
+        "title": "Pijama Levantadora Satin",
+        "descripcion": "Hermosa levantadora. Tu batola ideal para levantarte",
+        "precio":10,
+        "categoryId": "short",
+        "stock":10,
+        "imgUrl":"https://pijamaslatinglam.com/wp-content/uploads/2019/10/IMG_7116-Copy-300x375.jpg"
+    }   
+    
+]
