@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavBar, ItemListContainer } from './Components'
+import { NavBar, ItemListContainer, ItemDetailContainer } from './Components'
 import './App.css';
 
 export function App() {
@@ -7,6 +7,7 @@ export function App() {
     <div>
       <NavBar />
       <ItemListContainer />
+      <ItemDetailContainer productId={1004}/>
     </div>
   )
 }

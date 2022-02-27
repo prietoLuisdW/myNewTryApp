@@ -22,6 +22,8 @@ export function ItemListContainer(){
         })
     },[])
 
+    console.log("All Products: " + products)
+
     return(
         <div>
             <ItemList className="d-flex row p-5 border" products={products}/>
