@@ -24,5 +24,5 @@ export function ItemDetailContainer({productId}){
     })
     },[productId])
     console.log("Producto Detalle: " + product)
-    return <ItemDetail product={product}/>
+    return product ? <ItemDetail product={product}/> : null
 }
