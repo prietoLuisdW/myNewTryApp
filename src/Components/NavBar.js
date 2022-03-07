@@ -22,22 +22,20 @@ export function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li  type="button" className="nav-item">
-                            <div className="nav-item nav-link px-4" aria-current="page" as={Link} to="/" > Home </div>
+                            <Link className="nav-item nav-link px-4" aria-current="page" to="/" > Home </Link>
                         </li>
-                        {categories.map((category) =>{
-                            return(
-                                <li type="button" className="nav-item">
-                                    <Link key={category.name} 
-                                        className="nav-item nav-link px-4"
-                                        to={'/category/${category.id}'}
-                                    >
-                                    {category.name}
-                                    </Link>
-                                </li>
-                            )
-                        })
-
-                        }
+                        <li>
+                            <Link key="capri" to="/category/capri" className="nav-item nav-link px-4">Capri</Link>
+                        </li>
+                        <li>
+                            <Link key="short" to="/category/short" className="nav-item nav-link px-4">Short</Link>
+                        </li>
+                        <li>
+                            <Link key="cachetero" to="/category/cachetero" className="nav-item nav-link px-4">Cachetero</Link>
+                        </li>
+                        <li>
+                            <Link key="batola" to="/category/batola" className="nav-item nav-link px-4">Batolas</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

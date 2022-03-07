@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
-import { ItemDetailContainer } from "../Components";
+import {ItemListContainer } from "../Components";
 
 export function CategoryPage(){
     const { categoryId } = useParams()
-    return <ItemDetailContainer query={{categoryId}} />
+    return <ItemListContainer query={{categoryId}} />
 }
