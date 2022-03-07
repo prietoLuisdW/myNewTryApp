@@ -16,7 +16,7 @@ export function NavBar() {
                             <div className="nav-item nav-link px-4" aria-current="page" as={Link} to="/" > Home </div>
                         </li>
                         <li type="button" className="nav-item">
-                            <div className="nav-link px-4"  aria-current="page"as={Link} to="/capri" > Capri </div>
+                            <div className="nav-link px-4"  aria-current="g"as={Link} to="/capri" > Capri </div>
                         </li>
                         <li type="button" className="nav-item">
                             <div className="nav-link px-4" aria-current="page" as={Link} to="/short" > Short </div>

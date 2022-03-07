@@ -1,14 +1,34 @@
 import React from 'react'
-import { NavBar, ItemListContainer, ItemDetailContainer } from './Components'
+import { NavBar, Footer } from './Components'
 import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+import { HomePage } from './Pages/HomePage';
+import { ProductDetailPage } from './Pages/ProductDetailPage';
+import { CategoryPage } from './Pages/CategoryPage';
 
 export function App() {
   return (
-    <div>
-      <NavBar />
-      <ItemListContainer />
-      <ItemDetailContainer productId={1004}/>
-    </div>
+      <BrowserRouter>
+        <div>
+          <NavBar />
+          <div>
+            
+            <Route exact path="/">
+              <HomePage />
+            </Route>
+
+            <Route path='/product/:productId'>
+              <ProductDetailPage />
+            </Route>
+
+            <Route path='/category/:categoryId'>
+              <CategoryPage />
+            </Route>
+
+          </div>
+          <Footer />
+        </div>
+      </BrowserRouter>
   )
 }
 export default App
