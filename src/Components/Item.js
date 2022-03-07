@@ -15,7 +15,11 @@ export function Item({ product }){
                 <h5 className="fw-normal fs_7 fc_grey text-center align-middle">{product.id}: {product.title}</h5>
             </div>
             
-            <button type="button" className="btn btn-dark w-100">Ver Mas</button>
+            <Link 
+                type="button" className="btn btn-dark w-100"
+                key={product.id} to={`/product/${product.id}`}>
+            Ver Mas
+            </Link>
         </div>
     )
 }
