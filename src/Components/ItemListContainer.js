@@ -24,7 +24,7 @@ async function getProducts(query){
 export function ItemListContainer({query}){
     const [products, setProducts]=useState([])
     useEffect(()=>{
-        getProducts().then((products)=>{
+        getProducts(query).then((products)=>{
             setProducts(products)
         })
     },[query])

@@ -2,6 +2,15 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import { CartWidget } from './CartWidget'
 
+const categories = [
+    {id: 'capri', name: 'Capri'},
+    {id: 'cachetero', name: 'Short'},
+    {id: 'short', name: 'Cachetero'},
+    {id: 'batola', name: 'Batolas'},
+
+]
+
+
 export function NavBar() {
     return (
         <div className="navbar navbar-expand-md sticky-top navbar-dark text-white bg-black">
@@ -15,18 +24,20 @@ export function NavBar() {
                         <li  type="button" className="nav-item">
                             <div className="nav-item nav-link px-4" aria-current="page" as={Link} to="/" > Home </div>
                         </li>
-                        <li type="button" className="nav-item">
-                            <div className="nav-link px-4"  aria-current="g"as={Link} to="/capri" > Capri </div>
-                        </li>
-                        <li type="button" className="nav-item">
-                            <div className="nav-link px-4" aria-current="page" as={Link} to="/short" > Short </div>
-                        </li>
-                        <li type="button" className="nav-item">
-                            <div className="nav-link px-4" aria-current="page" as={Link} to="/cachetero" > Cachetero </div>
-                        </li>
-                        <li type="button" className="nav-item">
-                            <div className="nav-link px-4" aria-current="page" as={Link} to="/batolas" > Batolas </div>
-                        </li>
+                        {categories.map((category) =>{
+                            return(
+                                <li type="button" className="nav-item">
+                                    <Link key={category.name} 
+                                        className="nav-item nav-link px-4"
+                                        to={'/category/${category.id}'}
+                                    >
+                                    {category.name}
+                                    </Link>
+                                </li>
+                            )
+                        })
+
+                        }
                     </ul>
                 </div>
             </div>
