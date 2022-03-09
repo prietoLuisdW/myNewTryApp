@@ -2,47 +2,40 @@ import React from 'react'
 import { useState } from "react"
 
 
-export function ItemCount(props){
-    const [unidades, setUnidades] = useState(1)
-    const [stock, setStock] = useState(props.stock)
-        
+export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
+    const [count, setCount] = useState(initialValue ?? minValue)
+    // const [stock, setStock] = useState(stock)
+    
+    function onIncrement (currentCount){
+        return Math.min(maxValue, currentCount+1)
+    }
+
+    function onDecrement(currentCount){
+        return Math.max(minValue, currentCount-1)
+    }
 
     return(
-        <>
+        <div className='mx-4'>
             <div className="justify-content-between d-flex border align-self-center">
                 <button 
                     className="btn btn-secondary"
-                    onClick={()=>
-                    {if ( unidades<=0){
-                        setUnidades(unidades)
-                    }else{
-                        setUnidades(unidades - 1)
-                        setStock(stock+1)}
-                    }
-                }>
+                    onClick={()=>setCount(onDecrement)}
+                    disabled={count===minValue}
+                >
                     -
                 </button>
-                <span className="fs-6">{unidades}</span>
+                <span className="fs-6">{count}</span>
                 <button 
                     className="btn btn-secondary"
-                    onClick={()=>
-                        {if ( stock<=0){
-                                setUnidades(unidades)
-                                setStock(stock=0)
-                            }else{
-                                setUnidades(unidades+1)
-                                setStock(stock-1)
-                        }
-                    }
-                            
-                    }>
+                    onClick={()=>setCount(onIncrement)}
+                >
                     +
                 </button>
             </div>
-            <button type='button' className="btn btn-success  w-100 mb-1 fs-6"  onClick={()=>props.onAdd({unidades})}>
+            <button type='button' className="btn btn-success  w-100 mb-1 fs-6"  onClick={()=>onAdd(count)}>
                 Agregar
             </button>
-        </>
+        </div>
     )
 }
 
