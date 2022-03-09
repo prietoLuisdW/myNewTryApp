@@ -1,8 +1,12 @@
 import React from 'react'
 import { Link, NavLink } from "react-router-dom"
+import { UseCart } from '../Hooks/UseCart'
 import { CartWidget } from './CartWidget'
 
 export function NavBar() {
+
+    const cart = UseCart()
+
     return (
         <div className="navbar navbar-expand-md sticky-top navbar-dark text-white bg_brand">
            <div className="container-fluid text-white">

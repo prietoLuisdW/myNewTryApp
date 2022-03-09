@@ -1,9 +1,15 @@
 import { prettyDOM } from "@testing-library/react"
+import { UseCart } from "../Hooks/UseCart"
 import ItemCount from "./ItemCount"
 
 export function ItemDetail({product}){
+
+    const cart = UseCart()
+
+    const cartItem = cart.getItem(product.id)
+
     function OnAddCart(quantity){
-        console.log(quantity)
+        cart.addItem({...product, quantity})
     }
     return(
         <div className="contanier border rounded p-2 d-flex flex-wrap justify-content-center m-2">
@@ -28,8 +34,8 @@ export function ItemDetail({product}){
                 </div>
                 <div className="w-50">
                     <ItemCount
-                    initialValue={1}
-                    maxValue={product.value}
+                    initialValue={cartItem?.quantity}
+                    maxValue={product.stock}
                     onAdd={OnAddCart} />
                 </div>
             </div>

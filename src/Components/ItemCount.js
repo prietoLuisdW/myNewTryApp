@@ -33,7 +33,7 @@ export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
                 </button>
             </div>
             <button type='button' className="btn text-white bg_thirt  w-100 mb-1 fs-6"  onClick={()=>onAdd(count)}>
-                Agregar
+                {initialValue ? "Actualizar Carrito" : "Agregar Carrito"}
             </button>
         </div>
     )
