@@ -18,7 +18,7 @@ export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
         <div className='border rounded p-1'>
             <div className="justify-content-between d-flex  align-self-center mb-1">
                 <button 
-                    className="btn btn-secondary"
+                    className="btn text-white bg_thirt"
                     onClick={()=>setCount(onDecrement)}
                     disabled={count===minValue}
                 >
@@ -26,13 +26,13 @@ export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
                 </button>
                 <span className="fs-6">{count}</span>
                 <button 
-                    className="btn btn-secondary"
+                    className="text-white btn bg_thirt"
                     onClick={()=>setCount(onIncrement)}
                 >
                     +
                 </button>
             </div>
-            <button type='button' className="btn btn-secondary  w-100 mb-1 fs-6"  onClick={()=>onAdd(count)}>
+            <button type='button' className="btn text-white bg_thirt  w-100 mb-1 fs-6"  onClick={()=>onAdd(count)}>
                 Agregar
             </button>
         </div>

@@ -82,3 +82,26 @@ margin: 2px;
 .scale_1:hover{
   transform: scale(1.2); 
 }
+
+.bg_brand{
+  background-color: #FF7D7C;
+}
+
+.bg_second{
+  background-color: #D9777D;
+}
+
+.bg_thirt{
+  background-color: #D9777D;
+}
+.bg_thirt:hover{
+  background-color: #BB5C40;
+}
+
+.link_one{
+  color: white;
+  text-decoration: none;
+}
+.link_one:hover{
+  color: #BB5C40;
+}

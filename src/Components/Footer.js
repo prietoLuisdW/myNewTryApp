@@ -1,8 +1,8 @@
 import waImg1 from '../pictures/wa.png' 
 export function Footer(){
     return(
-        <div className='py-2 bg-dark'>
-            <div className="ps-2 bg-dark">
+        <div className='py-2 bg_brand'>
+            <div className="ps-2 ">
                 <p className='fs_small mb-0 fw-light fc_grey'>Evelu Colombia</p>                
                 <p className='fs_small fw-light fc_grey'>Todos los derechos reservados</p>                
             </div>

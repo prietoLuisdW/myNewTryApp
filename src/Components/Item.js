@@ -16,7 +16,7 @@ export function Item({ product }){
             </div>
             
             <Link 
-                type="button" className="btn btn-dark w-100"
+                type="button" className="btn text-white bg_thirt w-100"
                 key={product.id} to={`/product/${product.id}`}>
             Ver Mas
             </Link>
