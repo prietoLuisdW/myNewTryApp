@@ -1,4 +1,3 @@
-import { prettyDOM } from "@testing-library/react"
 import { UseCart } from "../Hooks/UseCart"
 import ItemCount from "./ItemCount"
 

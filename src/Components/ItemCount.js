@@ -28,6 +28,7 @@ export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
                 <button 
                     className="text-white btn bg_thirt"
                     onClick={()=>setCount(onIncrement)}
+                    disabled={count===maxValue}
                 >
                     +
                 </button>

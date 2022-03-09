@@ -6,34 +6,37 @@ import { HomePage } from './Pages/HomePage';
 import { ProductDetailPage } from './Pages/ProductDetailPage';
 import { CategoryPage } from './Pages/CategoryPage';
 import { CartPage } from './Pages/CartPage';
+import { CartProvider } from './Providers/CartProvider';
 
-export function App() {
+export default function App() {
   return (
-      <BrowserRouter>
-        <div>
-          <NavBar />
+      <CartProvider>
+        <BrowserRouter>
           <div>
-            
-            <Route exact path="/">
-              <HomePage />
-            </Route>
+            <NavBar />
+            <div>
+              
+              <Route exact path="/">
+                <HomePage />
+              </Route>
 
-            <Route path='/product/:productId'>
-              <ProductDetailPage />
-            </Route>
+              <Route path='/product/:productId'>
+                <ProductDetailPage />
+              </Route>
 
-            <Route path='/category/:categoryId'>
-              <CategoryPage />
-            </Route>
+              <Route path='/category/:categoryId'>
+                <CategoryPage />
+              </Route>
 
-            <Route path='/cart'>
-              <CartPage />
-            </Route>
+              <Route path='/cart'>
+                <CartPage />
+              </Route>
 
+            </div>
+            <Footer />
           </div>
-          <Footer />
-        </div>
-      </BrowserRouter>
+        </BrowserRouter>
+      </CartProvider>  
   )
 }
-export default App
+
