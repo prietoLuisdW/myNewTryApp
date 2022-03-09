@@ -7,8 +7,8 @@ export function ItemDetail({product}){
     }
     return(
         <div className="contanier border rounded p-2 d-flex flex-wrap justify-content-center m-2">
-            <div className="align-items-end  float-end col-md-6 col-sm-12">
-                <img src={product.imgUrl} alt={product.title} />
+            <div className="row pe-5 col-md-6 col-sm-12">
+                <img className="rounded" src={product.imgUrl} alt={product.title} />
             </div>
             <div className="col-md-6 col-sm-12 m-0 p-0">
                 <div className="p-0 m-0">
@@ -21,9 +21,9 @@ export function ItemDetail({product}){
                 <div className="w-50 mb-2">
                     <select className="form-select">
                         <option value="1">Talla S</option>
-                        <option selected value="1">Talla M</option>
-                        <option selected value="1">Talla L</option>
-                        <option selected value="1">Talla XL</option>
+                        <option selected value="2">Talla M</option>
+                        <option value="3">Talla L</option>
+                        <option value="4">Talla XL</option>
                     </select>
                 </div>
                 <div className="w-50">
