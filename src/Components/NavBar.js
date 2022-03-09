@@ -31,7 +31,7 @@ export function NavBar() {
                 </div>
             </div>
             <div className='container-fluid d-flex justify-content-end'>
-            <CartWidget />
+            <CartWidget numOfItems={4}/>
             </div>
         </div>
     )

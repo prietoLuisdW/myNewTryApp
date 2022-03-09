@@ -15,8 +15,8 @@ export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
     }
 
     return(
-        <div className='mx-4'>
-            <div className="justify-content-between d-flex border align-self-center">
+        <div>
+            <div className="justify-content-between d-flex  align-self-center">
                 <button 
                     className="btn btn-secondary"
                     onClick={()=>setCount(onDecrement)}
@@ -32,7 +32,7 @@ export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
                     +
                 </button>
             </div>
-            <button type='button' className="btn btn-success  w-100 mb-1 fs-6"  onClick={()=>onAdd(count)}>
+            <button type='button' className="btn btn-secondary  w-100 mb-1 fs-6"  onClick={()=>onAdd(count)}>
                 Agregar
             </button>
         </div>

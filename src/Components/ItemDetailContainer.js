@@ -24,5 +24,5 @@ export function ItemDetailContainer({productId}){
     })
     },[productId])
     console.log("Producto Detalle: " + product)
-    return product ? <ItemDetail product={product}/> : null
+    return product ? <ItemDetail className="d-flex row" product={product}/> : null
 }
