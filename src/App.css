@@ -48,6 +48,10 @@
   font-size:medium;
 }
 
+.fs_small{
+  font-size: x-small;
+}
+
 .fc_grey{
   color: gray;
 }
