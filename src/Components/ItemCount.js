@@ -15,8 +15,8 @@ export function ItemCount({initialValue, minValue = 1 , maxValue, onAdd}){
     }
 
     return(
-        <div>
-            <div className="justify-content-between d-flex  align-self-center">
+        <div className='border rounded p-1'>
+            <div className="justify-content-between d-flex  align-self-center mb-1">
                 <button 
                     className="btn btn-secondary"
                     onClick={()=>setCount(onDecrement)}
