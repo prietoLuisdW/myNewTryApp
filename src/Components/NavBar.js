@@ -13,19 +13,19 @@ export function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li  type="button" className="nav-item  d-flex align-items-center">
-                            <Link className="nav-item px-4 link_one " aria-current="page" to="/" > Home </Link>
+                            <Link className="nav-item px-4 nav-link " aria-current="page" to="/" > Home </Link>
                         </li>
                         <li className='d-flex align-items-center'>
-                            <Link key="capri" to="/category/capri" className="nav-item px-4 link_one">Capri</Link>
+                            <Link key="capri" to="/category/capri" className="nav-item px-4 nav-link">Capri</Link>
                         </li>
                         <li className='d-flex align-items-center'>
-                            <Link key="short" to="/category/short" className="nav-item px-4 link_one">Short</Link>
+                            <Link key="short" to="/category/short" className="nav-item px-4 nav-link">Short</Link>
                         </li>
                         <li className='d-flex align-items-center'>
-                            <Link key="cachetero" to="/category/cachetero" className="nav-item px-4 link_one">Cachetero</Link>
+                            <Link key="cachetero" to="/category/cachetero" className="nav-item px-4 nav-link">Cachetero</Link>
                         </li>
                         <li className='d-flex align-items-center'>
-                            <NavLink key="batola" to="/category/batola" className="nav-item px-4 link_one">Batolas</NavLink>
+                            <NavLink key="batola" to="/category/batola" className="nav-item px-4 nav-link ">Batolas</NavLink>
                         </li>
                     </ul>
                 </div>
